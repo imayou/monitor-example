@@ -2,7 +2,8 @@
 ## How to run
 
 ```bash
-./mvnw spring-boot:run
+set path=D:\developer\OpenJDK\openjdk\jdk-11.0.1\bin;%path%
+java -Djava.net.preferIPv4Stack=true -Dcsp.sentinel.api.port=4500 -Dcsp.sentinel.dashboard.server=127.0.0.1:7788 -Dproject.name=pds -jar dsentinel-0.0.1-SNAPSHOT.jar &
 ```
 
 
