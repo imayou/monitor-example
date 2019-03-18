@@ -15,3 +15,9 @@ title = sentinel
 set path=D:\developer\OpenJDK\openjdk\jdk-11.0.1\bin;%path%
 java -Dserver.port=7788 -Dcsp.sentinel.dashboard.server=localhost:7788 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard-1.5.0.jar &
 ```
+
+
+### about
+http://dubbo.apache.org/zh-cn/blog/use-zipkin-in-dubbo.html
+
+https://github.com/alibaba/Sentinel/wiki/%E6%8E%A7%E5%88%B6%E5%8F%B0
